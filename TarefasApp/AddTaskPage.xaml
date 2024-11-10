@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TarefasApp.AddTaskPage"
+             Title="Add Task"
+             BackgroundColor="Transparent">
+
+    <StackLayout Padding="20">
+        <Label Text="Title" FontSize="22" FontAttributes="Bold" />
+        <Entry x:Name="txtTitle" TextColor="blue" />
+
+        <Label Text="Description" FontSize="22" FontAttributes="Bold" />
+        <Entry x:Name="txtDescription" TextColor="blue" />
+
+        <Label Text="Priority" FontSize="22" FontAttributes="Bold" />
+        <Entry x:Name="txtPriority" Keyboard="Numeric" TextColor="blue" />
+
+        <Button Text="Save" Clicked="OnSaveClicked" BackgroundColor="blue" TextColor="White" />
+    </StackLayout>
+
+</ContentPage>

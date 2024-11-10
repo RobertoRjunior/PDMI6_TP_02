@@ -1,0 +1,1 @@
+C:\Users\User\Desktop\TP02-PDMI6-main\TP02\TarefasApp\TarefasApp.csproj;x64
